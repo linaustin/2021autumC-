@@ -2,7 +2,7 @@
 #include "hw2_lib.h"
 
 using namespace std;
-void inputPolyCoef(polynomial input);
+void inputPolyCoef(polynomial &input);
 
 
 int main(){
@@ -22,10 +22,7 @@ int main(){
 
     cout << endl;
 
-    cout << "A :" <<endl;
-    //cout << "A's terms : " << A.getTerms() <<endl;
     A.print();
-    cout << "B :" <<endl;
     B.print();
 
     cout << endl;
@@ -45,7 +42,7 @@ int main(){
     return 0;
 }
 
-void inputPolyCoef(polynomial input){
+void inputPolyCoef(polynomial &input){  //要用參照，不然call by value不會更改到本來的東西
 
     float inputCoef;
     int inputExp;

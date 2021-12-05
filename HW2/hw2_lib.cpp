@@ -29,20 +29,13 @@ polynomial::polynomial(string polyID, int termNumber):id(polyID), arrayLen(termN
 
 polynomial polynomial::Add(polynomial input) {
 
-    polynomial ans;
-    string ansID = this -> id + " + " + input.id;
-    if(this -> getArrayLen() > input.getArrayLen()){
-        ans = *this;
-        for(int i = 0; i < input.getTerms(); i++){
-            ans.newTerm(input.termArray[i].getCoef(), input.termArray[i].getExp());
-
-        }
+    polynomial ans("ans",(this->getArrayLen() + input.getArrayLen()));
+    string ansID = this->id + " + " + input.id;
+    for(int i = 0; i < input.getTerms(); i++){
+        ans.newTerm(input.termArray[i].getCoef(), input.termArray[i].getExp());
     }
-    else{
-        ans = input;
-        for(int i = 0; i < this -> getTerms(); i++){
-            ans.newTerm(this -> termArray[i].getCoef(), this -> termArray[i].getExp());
-        }
+    for(int i = 0; i < this->getTerms(); i++){
+        ans.newTerm(this->termArray[i].getCoef(), this->termArray[i].getExp());
     }
 
     ans.setid(ansID);
@@ -75,8 +68,8 @@ float polynomial::Eval(float x) {
             temp = temp * x;
         }
 
-       temp = temp * termArray[i].getCoef();
-       ans += temp;
+        temp = temp * termArray[i].getCoef();
+        ans += temp;
     }
 
     return ans;
@@ -123,8 +116,6 @@ void polynomial::newTerm(float newCoef, int newExp) {
         }
     }
 
-    //cout << id << "'s terms is :  " << terms << endl;
-
     return;
 }
 
@@ -138,9 +129,6 @@ void polynomial::print() {
 
     cout << id << " : ";
     for(int i = 0; i < terms; i++){
-
-        cout << termArray[i].getCoef() << " " << termArray[i].getExp() << endl;
-
         if((termArray[i].getExp() != 0) && (termArray[i].getCoef() != 0)){
             cout << termArray[i].getCoef() << "x^" << termArray[i].getExp() << " ";
         }
