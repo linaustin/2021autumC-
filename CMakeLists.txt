@@ -46,3 +46,6 @@ target_link_libraries(xml_generator tinyxml)
 add_library(tinyxml STATIC week10/tiny_xml/tinyxml.cpp week10/tiny_xml/tinystr.cpp week10/tiny_xml/tinystr.h week10/tiny_xml/tinyxml.h week10/tiny_xml/tinyxmlerror.cpp week10/tiny_xml/tinyxmlparser.cpp)
 
 add_executable(hw2_alternative HW2/hw2_alternative.cpp)
+
+add_executable(robot_main week11/robot_main.cpp week11/myRobot.cpp week11/myRobot.h)
+add_library(myRobot SHARED week11/myRobot.cpp)
