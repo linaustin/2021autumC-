@@ -1,0 +1,3 @@
+C:/Users/linau/Desktop/kendo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/linau/Desktop/kendo/cmake-build-debug/CMakeFiles/kendo.dir
+C:/Users/linau/Desktop/kendo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

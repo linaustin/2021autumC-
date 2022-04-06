@@ -1,0 +1,19 @@
+# ninja log v5
+13	1710	6625292402749131	CMakeFiles/kendo.dir/lib/jsoncpp/example/streamWrite/streamWrite.cpp.obj	4445ffbe5121f9e5
+1	2175	6625292402648632	CMakeFiles/kendo.dir/lib/jsoncpp/example/readFromStream/readFromStream.cpp.obj	d1f80535f0d5788e
+59	2460	6625292409572758	CMakeFiles/kendo.dir/lib/jsoncpp/example/stringWrite/stringWrite.cpp.obj	d6f8a3d5b1f27f22
+28	2481	6625292409758618	CMakeFiles/kendo.dir/lib/jsoncpp/example/readFromString/readFromString.cpp.obj	632b5034653b3492
+194	2503	6625292410537281	CMakeFiles/kendo.dir/lib/jsoncpp/src/test_lib_json/fuzz.cpp.obj	41b4410b8fd8bbfe
+119	2963	6625292414808469	CMakeFiles/kendo.dir/lib/jsoncpp/src/jsontestrunner/main.cpp.obj	7800781549feed
+3	2113	6625384974562750	CMakeFiles/kendo.dir/lib/member/member.cpp.obj	3f0d21b544e38da6
+234	3553	6625292421600595	CMakeFiles/kendo.dir/lib/jsoncpp/src/lib_json/json_writer.cpp.obj	cf7d9bfe95526732
+27	2430	6625463204701653	CMakeFiles/kendo.dir/main.cpp.obj	81b1c3f2556525f9
+155	3619	6625292422268694	CMakeFiles/kendo.dir/lib/jsoncpp/src/lib_json/json_value.cpp.obj	fc27ecd9ac238db0
+89	3921	6625292425212442	CMakeFiles/kendo.dir/lib/jsoncpp/src/lib_json/json_reader.cpp.obj	761ac83c8e4a935c
+3	1108	6625516063561105	CMakeFiles/kendo.dir/lib/member/kendo.cpp.obj	791f6d25c340ddc
+287	4137	6625292427445286	CMakeFiles/kendo.dir/lib/jsoncpp/src/test_lib_json/jsontest.cpp.obj	9ee5dc884c7d477d
+2176	6580	6625292451779168	CMakeFiles/kendo.dir/lib/jsoncpp/src/test_lib_json/main.cpp.obj	5d2a66146bf2f604
+1	196	6625616214507656	build.ninja	18773a6e7a124ad1
+1109	1765	6625516070098534	kendo.exe	dfe07be052120f9b
+5	788	6625617788508708	CMakeFiles/kendo.dir/lib/member/kendo.cpp.obj	791f6d25c340ddc
+788	1652	6625617797125049	kendo.exe	dfe07be052120f9b

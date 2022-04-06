@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/linau/Desktop/劍道社/kendo/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/kendo.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/kendo.dir/lib/jsoncpp/src/lib_json/json_reader.cpp.obj -c C:/Users/linau/Desktop/劍道社/kendo/lib/jsoncpp/src/lib_json/json_reader.cpp",
+  "file": "C:/Users/linau/Desktop/劍道社/kendo/lib/jsoncpp/src/lib_json/json_reader.cpp"
+},
+{
+  "directory": "C:/Users/linau/Desktop/劍道社/kendo/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/kendo.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/kendo.dir/lib/jsoncpp/src/lib_json/json_value.cpp.obj -c C:/Users/linau/Desktop/劍道社/kendo/lib/jsoncpp/src/lib_json/json_value.cpp",
+  "file": "C:/Users/linau/Desktop/劍道社/kendo/lib/jsoncpp/src/lib_json/json_value.cpp"
+},
+{
+  "directory": "C:/Users/linau/Desktop/劍道社/kendo/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/kendo.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/kendo.dir/lib/jsoncpp/src/lib_json/json_writer.cpp.obj -c C:/Users/linau/Desktop/劍道社/kendo/lib/jsoncpp/src/lib_json/json_writer.cpp",
+  "file": "C:/Users/linau/Desktop/劍道社/kendo/lib/jsoncpp/src/lib_json/json_writer.cpp"
+},
+{
+  "directory": "C:/Users/linau/Desktop/劍道社/kendo/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/kendo.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/kendo.dir/lib/member/kendo.cpp.obj -c C:/Users/linau/Desktop/劍道社/kendo/lib/member/kendo.cpp",
+  "file": "C:/Users/linau/Desktop/劍道社/kendo/lib/member/kendo.cpp"
+},
+{
+  "directory": "C:/Users/linau/Desktop/劍道社/kendo/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/kendo.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/kendo.dir/lib/member/member.cpp.obj -c C:/Users/linau/Desktop/劍道社/kendo/lib/member/member.cpp",
+  "file": "C:/Users/linau/Desktop/劍道社/kendo/lib/member/member.cpp"
+},
+{
+  "directory": "C:/Users/linau/Desktop/劍道社/kendo/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/kendo.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/kendo.dir/main.cpp.obj -c C:/Users/linau/Desktop/劍道社/kendo/main.cpp",
+  "file": "C:/Users/linau/Desktop/劍道社/kendo/main.cpp"
+}
+]
